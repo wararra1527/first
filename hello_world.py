@@ -1,9 +1,10 @@
-def print_hello():
-	print("Hello World!!")
+def add(x,y):
+	a = x + y
+	reutrn a
 
 def print_KIT():
-	print("Kumoh National Institue of Technology.")
+	print("KIT")
 
 if __name__== '__main__':
 	print_KIT()
-	print_hello()
+	print( print_hello(1,2) )
